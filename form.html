@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Resume Form </title>
+        <style>
+            select{
+                color: crimson;
+            }
+            h1{
+                color:brown;
+            }
+            
+        </style>
+    </head>
+    <body>
+        <div style="background-color:azure;">
+        <marquee><font size="20" color="RED">ENTER YOUR DETAILS FOR RESUME</font>  </marquee>
+        <hr size="1" width="100%">
+        <form action="mailto: subham.modi2020@vitstudent.ac.in" method="POST">
+            <h1>Submit a Resume </h1>
+            <hr size="1" width="100%">
+            Full Name: 
+            <input type="text" name="first name" placeholder="first name" required>
+            &nbsp;<input type="text" name="last name" placeholder="last name" required>
+            <br><br><br>
+            Address :
+            &nbsp;&nbsp;&nbsp;<input size="50" type="text" name="Street Address" placeholder="Street Address" required>
+            <br><br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input size="50" type="text" name="Street Address Line 2" placeholder="Street Address line 2" required>
+            <br><br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" name="city" placeholder="Enter City">
+            <input type="text" name="State" placeholder="Enter State">
+            <br><br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="number" name="Zip code" placeholder="Enter Zip Code">
+            <select >
+                <option>--Select Country--</option>
+                <option value="India">India</option>
+                <option value="china">china</option>
+                <option value="America">America</option>
+            </select>
+            <br><br><br>
+            Phone:
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="number" name="area code" placeholder="area code" required>
+            &nbsp;&nbsp;<input type="tel" name="Phone number" placeholder="telephone number" required>
+            <br><br><br>
+            Email :
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input size="40" type="email" name="Email" placeholder="ex: myname@gmail.com">
+            <br><br><br>
+            Area of Intrest:
+            <input type="checkbox" name="Area of Intrest" value="Data Analytics" id="Area of Intrest 1" value="Data Analytics">
+            Data Analytics
+            <br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="checkbox" name="Area of Intrest" id="Area of Intrest 2" value="web developer">
+            web developer
+            <br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="checkbox" name="Area of Intrest" id="Area of Intrest 3" value="coder">
+            coder
+            <br><br><br>
+            Skill Level :
+            <select >
+                <option>--Select--</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+            </select>
+            <br><br><br>
+            Cover Size: 
+            <input type="text" size="50" name="tex" placeholder="Enter the text">
+            <br><br><br>
+            <input type="submit" value="submit">
+            <input type="reset" value="reset">
+        </form>
+    </div>
+    </body>
+</html>
+
